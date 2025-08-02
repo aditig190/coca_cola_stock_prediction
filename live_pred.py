@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
 # Load trained model
-model = joblib.load(r'\coca_cola_rf_model.pkl')
+model = joblib.load(r'coca_cola_rf_model.pkl')
 
 # App title
 st.title(" Coca-Cola Stock Price Prediction")
@@ -67,4 +67,5 @@ plt.title("Coca-Cola Stock Price with Optional SMAs")
 plt.legend()
 plt.grid(True)
 st.pyplot(plt)
+
 
